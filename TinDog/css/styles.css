@@ -1,0 +1,175 @@
+
+body{
+    font-family: "Montserrat";
+}
+
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2{
+    font-family: "Montserrat" ;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+p{
+    color: #8f8f8f;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2.3rem;
+  
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: "Montserrat";
+    font-size: 1.3rem;
+
+}
+
+.btn-pk{
+    margin: 5% 2% 0 2%;
+}
+
+.img-pk{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+
+}
+
+.f-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.f-i{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+ 
+.f-i:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    
+}
+
+.img-t{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.img-p{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+
+.col-p{
+    padding: 3% 2%;
+}
+
+
+#cta{
+    font-family: "Montserrat" ;
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+.cta-h{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 5%;
+
+}
+
+.btn-cta{
+    margin: 0 1%;
+}
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.foot-i{
+    margin : 20px 10px;
+}
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    .img-pk{
+        position: static;
+        transform: rotate(0);
+        padding-top: 5%;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+}
+
